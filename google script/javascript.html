@@ -1,0 +1,8 @@
+<script>
+	google.script.run.withSuccessHandler(postPosts).getPosts(); // async?
+  function postPosts(posts) {
+    posts.forEach(function(post){
+      document.getElementById("tl").insertAdjacentHTML("afterbegin", post);
+    });
+  }
+</script>

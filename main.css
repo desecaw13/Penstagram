@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(120, 69, 145);
+}
+
+header {
+    color: ghostwhite;
+    font-family: 'Merienda', cursive;
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+h4,
+p {
+    text-align: justify;
+    font-family: 'Itim', cursive;
+}
