@@ -15,9 +15,17 @@ main {
 }
 
 a {
-    text-decoration: none;
     color: unset;
 }
+    a:hover {
+        text-shadow: 0 0 0.1em slategray;
+    }
+    a:active {
+        /*todo*/
+    }
+    a:visited {
+        /*todo*/
+    }
 
 h4,
 p {
