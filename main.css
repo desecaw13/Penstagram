@@ -5,13 +5,12 @@ body {
 header {
     color: ghostwhite;
     font-family: 'Merienda', cursive;
+    text-align: center;
+    /*position: sticky;*/
 }
 
-main {
-    background-color: white;
-    border-radius: 10px;
-    padding: 2rem;
-    margin: 2rem;
+img {
+    width: -webkit-fill-available;
 }
 
 a {
@@ -27,8 +26,27 @@ a {
         /*todo*/
     }
 
+h3,
 h4,
 p {
-    text-align: justify;
     font-family: 'Itim', cursive;
+}
+
+#pf {
+    padding: 0;
+    padding-bottom: 1em;
+}
+    #pf div {
+        float: left;
+    }
+    #pf h1, #pf h3 {
+        display: inline;
+        margin-left: 1rem;
+    }
+
+.post {
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 2rem;
 }
