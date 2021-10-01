@@ -1,0 +1,29 @@
+﻿{
+	"name": "penstagram/pen-theme",
+	"type": "elgg-plugin",
+	"description": "Custom theme and start page for https://www.penstagram.k.vu",
+	"keywords": [ "elgg", "plugin" ],
+	"authors": [
+		{
+			"name": "Lilyth Ⓐ",
+			"email": "penstagram@hotmail.com",
+			"homepage": "https://www.gaypage.lilyspadd.com/",
+			"role": "Developer"
+		}
+	],
+	"homepage": "https://github.com/desecaw13/Penstagram",
+	"support": {
+		"email": "penstagram@hotmail.com",
+		"source": "https://github.com/desecaw13/Penstagram/tree/main/elgg/mod/pen-theme",
+		"issues": "https://github.com/desecaw13/Penstagram/issues"
+	},
+	"require": {
+		"composer/installers": "^1.0.8",
+		"php": ">7.4",
+		"ext-json": "*",
+		"elgg/elgg": "^4.0"
+	},
+	"conflict": {
+		"elgg/elgg": "<3.0"
+	}
+}
