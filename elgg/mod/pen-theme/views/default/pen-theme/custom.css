@@ -1,0 +1,16 @@
+
+/*.elgg-body {
+	background-color: #fff;
+}*/
+
+.elgg-image-block > .elgg-body {
+	background-color: #fff;
+}
+
+.elgg-module > .elgg-body {
+	background-color: #fff;
+}
+
+.elgg-tags {
+	color: $(anchor-color);
+}

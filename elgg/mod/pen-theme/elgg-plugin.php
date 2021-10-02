@@ -6,30 +6,36 @@ return [
 		'version' => '1.0.0',
 	],
 
+	'view_extensions' => [
+		'elements/components.css' => [
+			'pen-theme/css' => [],
+		],
+	],
+
 	'theme' => [
 		// shell color
-		'body-background-color' => '#000',
+		'body-background-color' => '#784591',
 
 		// global font family  todo: add my font?
 		'font-family' => 'BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif',
 
-		'anchor-color' => '#784591',
-		'anchor-color-hover' => '#3c2248',
+		'anchor-color' => '#000',
+		'anchor-color-hover' => '#102',
 
 		// element colors
 		'text-color-soft' => '#969696',
 		'text-color-mild' => '#7d7d7d',
-		'text-color-strong' => '#3c2248',
+		'text-color-strong' => '#102',
 		'text-color-highlight' => '#784591',
 		'background-color-soft' => '#fafafa',
 		'background-color-mild' => '#e6e6ea',
 		'background-color-strong' => '#cfcfd2',
-		'background-color-highlight' => '#784591',
+		'background-color-highlight' => '#3c2248',
 
 		'border-color-soft' => '#e6e6ea',
 		'border-color-mild' => '#dcdcdc',
 		'border-color-strong' => '#cfcfd2',
-		'border-color-highlight' => '#784591',
+		'border-color-highlight' => '#3c2248',
 
 		// messages and notices
 		'state-success-font-color' => '#397f2e',
@@ -54,9 +60,9 @@ return [
 		'button-submit-background-color-hover' => '#784591',
 		'button-submit-font-color-hover' => '#ffffff',
 
-		'button-action-background-color' => '#784591',
+		'button-action-background-color' => '#3c2248',
 		'button-action-font-color' => '#ffffff',
-		'button-action-background-color-hover' => '#3c2248',
+		'button-action-background-color-hover' => '#784591',
 		'button-action-font-color-hover' => '#ffffff',
 
 		'button-cancel-background-color' => '#e6e6ea',
