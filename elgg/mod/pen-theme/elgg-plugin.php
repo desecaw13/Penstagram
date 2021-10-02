@@ -4,12 +4,6 @@ return [
 	'plugin' => [
 		'name' => 'Penstagram Theme',
 		'version' => '1.0.0',
-		//'dependencies' => [
-		//	'activity' => [
-		//		'must_be_active' => false,
-		//		'position' => 'after',
-		//	],
-		//],
 	],
 
 	'theme' => [

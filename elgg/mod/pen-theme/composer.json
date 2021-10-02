@@ -1,11 +1,11 @@
 ﻿{
 	"name": "penstagram/pen-theme",
-	"type": "elgg-plugin",
 	"description": "Custom theme and start page for https://www.penstagram.k.vu",
+	"type": "elgg-plugin",
 	"keywords": [ "elgg", "plugin" ],
 	"authors": [
 		{
-			"name": "Lilyth Ⓐ",
+			"name": "Lilyth Hunt",
 			"email": "penstagram@hotmail.com",
 			"homepage": "https://www.gaypage.lilyspadd.com/",
 			"role": "Developer"
@@ -19,9 +19,8 @@
 	},
 	"require": {
 		"composer/installers": "^1.0.8",
-		"php": ">7.4",
-		"ext-json": "*",
-		"elgg/elgg": "^4.0"
+		"php": ">=7.4",
+		"ext-json": "*"
 	},
 	"conflict": {
 		"elgg/elgg": "<3.3"
