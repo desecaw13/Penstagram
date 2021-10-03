@@ -1,28 +1,28 @@
 ﻿{
-	"name": "penstagram/pen-theme",
-	"description": "Custom theme and start page for https://www.penstagram.k.vu",
-	"type": "elgg-plugin",
-	"keywords": [ "elgg", "plugin" ],
-	"authors": [
-		{
-			"name": "Lilyth Hunt",
-			"email": "penstagram@hotmail.com",
-			"homepage": "https://www.gaypage.lilyspadd.com/",
-			"role": "Developer"
-		}
-	],
-	"homepage": "https://github.com/desecaw13/Penstagram",
-	"support": {
-		"email": "penstagram@hotmail.com",
-		"source": "https://github.com/desecaw13/Penstagram/tree/main/elgg/mod/pen-theme",
-		"issues": "https://github.com/desecaw13/Penstagram/issues"
-	},
-	"require": {
-		"composer/installers": "^1.0.8",
-		"php": ">=7.4",
-		"ext-json": "*"
-	},
-	"conflict": {
-		"elgg/elgg": "<3.3"
-	}
+  "name": "penstagram/pen-theme",
+  "description": "Custom theme and start page for https://www.penstagram.k.vu",
+  "type": "elgg-plugin",
+  "keywords": [ "elgg", "plugin" ],
+  "authors": [
+    {
+      "name": "Lilyth Hunt",
+      "email": "penstagram@hotmail.com",
+      "homepage": "https://www.gaypage.lilyspadd.com/",
+      "role": "Developer"
+    }
+  ],
+  "homepage": "https://github.com/desecaw13/Penstagram",
+  "support": {
+    "email": "penstagram@hotmail.com",
+    "source": "https://github.com/desecaw13/Penstagram/tree/main/elgg/mod/pen-theme",
+    "issues": "https://github.com/desecaw13/Penstagram/issues"
+  },
+  "require": {
+    "composer/installers": "^1.0.8",
+    "php": ">=7.4",
+    "ext-json": "*"
+  },
+  "conflict": {
+    "elgg/elgg": "<3.3"
+  }
 }

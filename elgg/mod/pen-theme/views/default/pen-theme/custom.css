@@ -3,11 +3,15 @@
 	background-color: #fff;
 }*/
 
-.elgg-image-block > .elgg-body {
+/*.elgg-image-block > .elgg-body {
+	background-color: #fff;
+}*/
+
+.elgg-module > .elgg-body {
 	background-color: #fff;
 }
 
-.elgg-module > .elgg-body {
+.elgg-list {
 	background-color: #fff;
 }
 
