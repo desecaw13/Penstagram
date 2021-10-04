@@ -50,7 +50,7 @@ return [
 		'state-notice-background-color' => '#f0d7ff',
 		'state-notice-border-color' => '#b4a9dc',
 
-		'state-warning-font-color' => '#6b420f',
+		'state-warning-font-color' => '#5b3200',
 		'state-warning-background-color' => '#fcf8e4',
 		'state-warning-border-color' => '#eddc7d',
 
