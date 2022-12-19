@@ -1,4 +1,4 @@
 # Penstagram
 ![Logo of a purple crystal ball](/favicon.png)
 
-test users wanted
+uses elgg. down for the foreseeable future
